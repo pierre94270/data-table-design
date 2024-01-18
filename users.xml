@@ -41,22 +41,18 @@
     <type label="Inet CIDR Addr" length="0" sql="CIDR" quote="'"/>
     <type label="Geometry" length="0" sql="GEOMETRY" quote="'"/>
   </group>
-</datatypes><table x="772" y="236" name="User">
+</datatypes><table x="1065" y="316" name="users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
-<row name="id_user" null="1" autoincrement="0">
-<datatype>INTEGER</datatype>
-<default>NULL</default></row>
-<row name="first_name" null="1" autoincrement="0">
-<datatype>CHAR</datatype>
-<default>NULL</default><comment>first_name</comment>
+<row name="first_name" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default><comment>first_name</comment>
 </row>
 <row name="last_name" null="1" autoincrement="0">
-<datatype>CHAR</datatype>
-<default>NULL</default><comment>last_name</comment>
-</row>
-<row name="age" null="1" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>NULL</default></row>
+<row name="age" null="0" autoincrement="0">
 <datatype>INTEGER</datatype>
 <default>NULL</default><comment>age</comment>
 </row>
@@ -69,4 +65,3 @@
 </key>
 </table>
 </sql>
-
