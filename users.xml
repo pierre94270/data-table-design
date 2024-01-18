@@ -41,7 +41,7 @@
     <type label="Inet CIDR Addr" length="0" sql="CIDR" quote="'"/>
     <type label="Geometry" length="0" sql="GEOMETRY" quote="'"/>
   </group>
-</datatypes><table x="1065" y="316" name="users">
+</datatypes><table x="562" y="87" name="users">
 <row name="id" null="1" autoincrement="1">
 <datatype>INTEGER</datatype>
 <default>NULL</default></row>
@@ -56,9 +56,9 @@
 <datatype>INTEGER</datatype>
 <default>NULL</default><comment>age</comment>
 </row>
-<row name="new field" null="1" autoincrement="0">
-<datatype>INTEGER</datatype>
-<default>NULL</default><comment>email</comment>
+<row name="email" null="0" autoincrement="0">
+<datatype>TEXT</datatype>
+<default>'NULL'</default><comment>email</comment>
 </row>
 <key type="PRIMARY" name="">
 <part>id</part>
